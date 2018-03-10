@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box; }
+
+body .container {
+  height: 500px;
+  width: 80%;
+  border: 1px solid red;
+  background: linear-gradient(to right, rgba(255, 0, 0, 0), red);
+  background-size: 100% 100%;
+  margin: auto; }
+  body .container #input {
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    outline: none; }
+  body .container #submit {
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    transition-duration: 0.8s; }
+    body .container #submit:hover {
+      cursor: pointer;
+      background: gray; }
+  body .container .sub-container {
+    height: 300px;
+    width: 50%;
+    border: 0px solid yellow;
+    padding-left: 80px;
+    margin: 0px auto;
+    justify-content: center; }
+    body .container .sub-container h1 {
+      min-width: 400px;
+      height: 100px;
+      width: 70%;
+      border: 2px solid red;
+      text-align: center;
+      font-size: 60px; }
+    body .container .sub-container .btn-start {
+      height: 40px;
+      width: 80px;
+      border: 1px solid green;
+      outline: none;
+      margin-right: 10px; }
+      body .container .sub-container .btn-start:hover {
+        cursor: pointer;
+        background: green;
+        transition-duration: 0.5s;
+        border-radius: 15px;
+        color: white; }
+  body .container .btn-stop {
+    height: 40px;
+    width: 80px;
+    border: 1px solid red;
+    outline: none;
+    margin-right: 10px; }
+    body .container .btn-stop:hover {
+      cursor: pointer;
+      background: red;
+      transition-duration: 0.5s;
+      border-radius: 15px;
+      color: white; }
+  body .container .btn-reset {
+    height: 40px;
+    width: 80px;
+    border: 1px solid steelblue;
+    outline: none;
+    margin-right: 10px; }
+    body .container .btn-reset:hover {
+      cursor: pointer;
+      background: steelblue;
+      transition-duration: 0.5s;
+      border-radius: 15px;
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */

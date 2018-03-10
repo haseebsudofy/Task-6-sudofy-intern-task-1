@@ -1,0 +1,7 @@
+@mixin height-width($height,$width){
+    height: $height;
+    width: $width;
+}
+@mixin border($size,$color){
+    border: $size solid $color;
+}
